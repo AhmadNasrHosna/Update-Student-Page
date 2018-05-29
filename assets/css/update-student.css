@@ -319,7 +319,8 @@ input[type=radio]:checked:disabled + .radio-label:before {
   top: 0;
   z-index: 1; }
 @media only screen and (max-width: 767px) {
-  .header {width: 100%; } }
+  .header {
+    width: 100%; } }
 .header .header__nav {
   padding: 0.8rem 1.7rem;
   background: #ededed;
