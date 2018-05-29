@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Update Student</title>
+        <meta name="descreption" content="Update Student">
+        <!-- Font-Awesome -->
+        <link rel="stylesheet" href="assets/fonts/ionicons/css/ionicons.min.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i" rel="stylesheet">
+
+        <!-- CSS Files -->
+        <link href="assets/css/normalize.css" rel="stylesheet">
+        <link href="assets/css/update-student.css" rel="stylesheet">
+    </head>
+    <body>
+        
+
+    <!-- Start Sidebar Menu -->  
+    <div class="main-wrapper">
+        <aside class="side-menu side-menu-close">
+            <div class="site-logo">
+                <h1 class="logo__title">
+                    <i class="icon ion-ios-paw"></i>
+                    <a href="#">IFSM</a>
+                </h1>
+            </div>
+            <div class="profile-welcome">
+                <img src="assets/img/profile-80.jpg" class="profile__img" alt="">
+                
+                <h3 class="profile__author">
+                    <span>Welcome,</span><br>
+                    <span>Mr. Marwan</span>
+                </h3>
+            </div>
+            <nav class="side-menu__nav">
+                <h4>General</h4>
+                <ul>
+                    <li><i class="icon ion-stats-bars"></i> Sales</li>
+                    <li><i class="icon ion-ios-people"></i> Students</li>
+                    <li><i class="icon ion-ios-world-outline"></i> Universities</li>
+                </ul>
+            </nav>
+            <div class="control-icons">
+                    <i class="icon ion-ios-gear"></i>
+                    <i class="icon ion-arrow-expand"></i>
+                    <i class="icon ion-eye-disabled"></i>
+                    <i class="icon ion-flash-off"></i>
+            </div>
+        </aside> 
+        <div class="grid-wrapper">
+
+            <!-- Start Header -->
+            <header class="header">
+                <nav class="header__nav">
+
+                    <div class="menu-toggle">
+                        <button id="toggle">
+                                <i class="icon ion-android-menu"></i>        
+                        </button>
+                    </div>
+
+                    <div class="messages">
+                        <i class="icon ion-ios-email-outline"></i>
+                        <span class="circle-notification">
+                            6
+                        </span>
+                    </div>
+
+                    <div class="profile-link">
+                        <img src="assets/img/profile-80.jpg" alt="" class="profile__img">
+                        <span class="profile__author"><a href="#">Mr. Marwan</a></span>
+                    </div>   
+
+                </nav>
+            </header>
+            
+            <!-- End Header -->
+
+            <!-- Start Main Content -->
+
+            <main class="content">
+                <div class="container">
+                    <section class="update-student">
+                        <h3 class="section-head">Update Student</h3>
+                        <form action="#" method="post" class="student-info-form">
+                            
+                            <label for="firstName">First Name:</label>
+                            <input type="text" id="firstName" name="firstName" value="">
+                            <br>
+                            <label for="surName">Sur Name:</label>
+                            <input type="text" id="surName" name="Sur Name" value="">
+                            <br>
+                            <label for="birthDate">Birth Date:</label>
+                            <input type="date" id="birthDate" name="Birth Date" value="">
+                            <br>
+                            <label for="nationality">Nationality:</label>
+                            <input type="text" id="nationality" name="Nationality" value="">
+                            <br>
+                            <label for="homeAddress">Home Address:</label>
+                            <input type="text" id="homeAddress" name="Home Address" value="">
+                            <br>
+                            <label for="mobileCellNumber">Mobile Cell Number:</label>
+                            <input type="text" id="mobileCellNumber" name="Mobile Cell Number" value="">
+                            <br>
+                            <label for="parentsHomePhoneNumber">Parents Home Phone Number:</label>
+                            <input type="text" id="parentsHomePhoneNumber" name="Parents Home Phone Number" value="">
+                            <br>
+                            <label for="parentsCellPhoneNumber">Parents Cell Phone Number:</label>
+                            <input type="text" id="parentsCellPhoneNumber" name="Parents Cell Phone Number" value="">
+                            <br>
+                            <label for="passportNumber">Passport Number:</label>
+                            <input type="text" id="passportNumber" name="Passport Number" value="">
+                            <br>
+                            <label for="passportExpireDate">Passport Expire Date:</label>
+                            <input type="date" name="passportExpireDate" id="passportExpireDate" class="mrg-bttm2">
+
+                                <label>Gender:</label>
+                                <div class="radio-wrapper mrg-bttm2">
+
+                                    <input type="radio" id="male" name="gender" value="">
+                                    <label class="radio-label" for="male">Male</label>
+
+                                    <input type="radio" id="female" name="gender" value="">
+                                    <label class="radio-label" for="female">Female</label>
+
+                                </div>
+
+                            <label for="parentsFullName">Parents Full Name:</label>
+                            <input type="text" id="parentsFullName" name="Parents Full Name" value="">
+                            <br>
+                            <label for="parentsPosition">Parents Position:</label>
+                            <input type="text" id="parentsPosition" name="Parents Position" value="" class="mrg-bttm2">
+                            <br>
+                                <label>Military Status:</label>
+                                <div class="radio-wrapper mrg-bttm2">
+                                    
+                                    <input type="radio" id="done" name="Military Status" value="">
+                                    <label class="radio-label" for="done">Done</label>
+
+
+                                    <input type="radio" id="delayed" name="Military Status" value="">
+                                    <label class="radio-label" for="delayed">Delayed</label>
+
+                                    <input type="radio" id="exemoted" name="Military Status" value="">
+                                    <label class="radio-label" for="exemoted">Exemoted</label>
+
+                                    <input type="radio" id="nonApplicable" name="Military Status" value="">
+                                    <label class="radio-label" for="nonApplicable">Non-applicable</label>
+
+                                </div>
+
+                                <label>Applicant Immigration Status:</label>
+
+                                <div class="radio-wrapper mrg-bttm2">
+                                    <input type="radio" id="citizen" name="Applicant Immigration Status" value="">
+                                    <label class="radio-label" for="citizen">Citizen</label>
+
+                                    <input type="radio" id="permanentResident" name="Applicant Immigration Status" value="">
+                                    <label class="radio-label" for="permanentResident">Permanent resident</label>
+
+                                    <input type="radio" id="temprraryResident" name="Applicant Immigration Status" value="">
+                                    <label class="radio-label" for="temprraryResident">Temprrary resident</label>
+
+                                    <input type="radio" id="studentVisa" name="Applicant Immigration Status" value="">
+                                    <label class="radio-label" for="studentVisa">Student visa</label>
+
+                                    <input type="radio" id="other" name="Applicant Immigration Status" value="">
+                                    <label class="radio-label" for="other">Other</label>
+
+                                </div>
+
+                            <label>Proposed Course 1:</label>
+                            <select name="proposedCourse1">
+                                <option value="Option 1">Option 1</option>
+                                <option value="Option 2">Option 3</option>
+                                <option value="Option 3">Option 3</option>
+                            </select>
+                            <br>
+
+                            <label>Proposed Course 2:</label>
+                            <select name="proposedCourse2">
+                                <option value="Option 1">Option 1</option>
+                                <option value="Option 2">Option 3</option>
+                                <option value="Option 3">Option 3</option>
+                            </select>
+                            <br>
+
+                            <label>Proposed Course 3:</label>
+                            <select name="proposedCourse3" class="mrg-bttm2">
+                                <option value="Option 1">Option 1</option>
+                                <option value="Option 2">Option 3</option>
+                                <option value="Option 3">Option 3</option>
+                            </select>
+
+                                <label>Documents:</label>
+                                <div class="checkbox-wrapper">
+
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="15photos" name="15 photos" value="" checked>
+                                        <label class="checkbox-label" for="15photos">15 photos</label>
+                                    </div>
+                                    
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="lastQualifiedCertificate" name="Last Qualified Certificate" value="" checked>
+                                        <label class="checkbox-label" for="lastQualifiedCertificate">Last Qualified Certificate</label>
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="passport" name="Passport" value="" checked>
+                                        <label class="checkbox-label" for="passport">Passport</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="nationalId" name="National Id" value="" checked>
+                                        <label class="checkbox-label" for="nationalId">National Id</label>
+                                    </div>
+                                    
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="militaryPapers" name="Military Papers" value="" checked>
+                                        <label class="checkbox-label" for="militaryPapers">Military Papers</label>
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="birthCirtificate" name="Birth Cirtificate" value="" checked>
+                                        <label class="checkbox-label" for="birthCirtificate">Birth Cirtificate</label>
+                                    </div>
+                                    
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="medicalCertificate" name="Medical Certificate" value="" checked>
+                                        <label class="checkbox-label" for="medicalCertificate">Medical Certificate</label>
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="fees5000EGP" name="Fees: 5000EGP" value="">
+                                        <label class="checkbox-label" for="fees5000EGP">Fees: 5000EGP</label>
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="fees500$" name="Fees: 500$ (1)" value="">
+                                        <label class="checkbox-label" for="fees500$">Fees: 500$ (1)</label>
+                                    </div>
+
+                                    <div class="checkbox">    
+                                        <input type="checkbox" id="feeds500$" name="Feeds: 500$ (2)" value="" disabled>
+                                        <label class="checkbox-label" for="feeds500$">Feeds: 500$ (2)</label>
+                                    </div>
+
+                                    <div class="checkbox">    
+                                        <input type="checkbox" id="universityAcceptance" name="University Acceptance" value="" checked disabled>
+                                        <label class="checkbox-label" for="universityAcceptance">University Acceptance</label>
+                                    </div>    
+
+                                    <div class="checkbox">    
+                                        <input type="checkbox" id="visaAcceptance" name="Visa Acceptance" value="">
+                                        <label class="checkbox-label" for="visaAcceptance">Visa Acceptance</label>
+                                    </div>            
+                                </div>
+
+                                <label>Travel through us:</label>
+                                <div class="radio-wrapper mrg-bttm2">
+                                    <input type="radio" id="yes" name="Travel through us" value="">
+                                    <label class="radio-label" for="yes">Yes</label>
+
+                                    <input type="radio" id="no" name="Travel through us" value="">
+                                    <label class="radio-label" for="no">No</label>
+
+                                </div>
+
+                                <label>How Student know us:</label>
+
+                                <div class="radio-wrapper mrg-bttm2">
+                                    <input type="radio" id="facebook" name="How Student know us" value="">
+                                    <label class="radio-label" for="facebook">Facebook</label>
+
+                                    <input type="radio" id="twitter" name="How Student know us" value="">
+                                    <label class="radio-label" for="twitter">Twitter</label>
+
+                                    <input type="radio" id="google" name="How Student know us" value="">
+                                    <label class="radio-label" for="google">Google</label>
+
+                                    <input type="radio" id="russianEmbassy" name="How Student know us" value="">
+                                    <label class="radio-label" for="russianEmbassy">Russian Embassy</label>
+
+                                    <input type="radio" id="newspaper" name="How Student know us" value="">
+                                    <label class="radio-label" for="newspaper">Newspaper</label>
+
+                                    <input type="radio" id="friend" name="How Student know us" value="">
+                                    <label class="radio-label" for="friend">Friend</label>
+
+                                    <input type="radio" id="ifsmStudent" name="How Student know us" value="">
+                                    <label class="radio-label" for="ifsmStudent">IFSM Student</label>
+
+                                    <input type="radio" id="other" name="How Student know us" value="">
+                                    <label class="radio-label" for="other">Other</label>
+
+                                </div>
+
+                            <label for="textarea">Comments:*</label>
+                            <textarea id="textarea" placeholder="Any comments about student.." class="mrg-bttm2"></textarea>
+                            
+                            <div class="wrapper">
+                                <input type="submit" class="btn btn--blue btn--blue" name="submit" value="Submit"> 
+                                <input type="button" class="btn btn--green btn--blue" value="Cancel"> 
+                            
+                            </div>    
+                        </form>
+                    </section>
+
+                    <!--=========-->
+
+                    <div class="wrapper">
+
+                        <section class="upload-documents">
+                            <h3 class="section-head">Upload Documents</h3>
+                            <form action="#" method="post" class="file-to-upload">
+                                <select name="document-type">
+                                    <option value="Photos">Photos</option>
+                                    <option value="Academic Background">Academic Background</option>
+                                    <option value="Passport">Passport</option>
+                                    <option value="Birth Certificate">Birth Certificate</option>
+                                </select>
+
+                                <input type="file" name="file[]" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple />
+                                <label for="file"><figure><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg></figure> <span>Drop files here to upload..</span></label>
+                            </form>
+                        </section>
+                        
+                        <!--=========-->
+
+                        <section class="student-documents">
+                            <h3 class="section-head">Student Documents</h3>
+                            <div class="ele photos">
+                                <h4>Photos</h4>
+                                <div class="wrapper">
+
+                                    <div class="document">
+                                        <img src="assets/img/student.jpg" alt="" class="document__thumb">
+                                        <h5 class="document__title">Document Title</h5>
+                                    </div>
+                                    <div class="document">
+                                        <img src="assets/img/student.jpg" alt="" class="document__thumb">
+                                        <h5 class="document__title">Document Title</h5>
+                                    </div>
+                                    <div class="document">
+                                        <img src="assets/img/student.jpg" alt="" class="document__thumb">
+                                        <h5 class="document__title">Document Title</h5>
+                                    </div>
+                                    <div class="document">
+                                        <img src="assets/img/student.jpg" alt="" class="document__thumb">
+                                        <h5 class="document__title">Long Document Title</h5>
+                                    </div>
+                                    <div class="document">
+                                        <img src="assets/img/student.jpg" alt="" class="document__thumb">
+                                        <h5 class="document__title">Very long Document Title</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="ele academic-background">
+                                <h4>Academic Background</h4>
+                                <div class="wrapper">
+
+                                    <div class="document">
+                                        <img src="assets/img/document.jpg" alt="" class="document__thumb">
+                                        <h5 class="document__title">Document Title</h5>
+                                    </div>
+                                    <div class="document">
+                                        <img src="assets/img/document.jpg" alt="" class="document__thumb">
+                                        <h5 class="document__title">Document Title</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="ele passport">
+                                <h4>Passport</h4>
+                                <div class="wrapper">
+
+                                    <div class="document">
+                                        <img src="assets/img/document.jpg" alt="" class="document__thumb">
+                                        <h5 class="document__title">Document Title</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="ele birth-certificate">
+                                <h4>Birth Certificate</h4>
+                                <div class="wrapper">
+
+                                    <div class="document">
+                                        <img src="assets/img/document.jpg" alt="" class="document__thumb">
+                                        <h5 class="document__title">Document Title</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>    
+                </div>
+            </main>
+
+            <!-- End Main Content -->
+
+            <footer class="footer">
+                <p class="copyrights">Developed by Samer</p>
+            </footer>
+        </div>
+    </div>      
+        <!-- jQuery -->
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
